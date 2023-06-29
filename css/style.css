@@ -173,7 +173,7 @@ body {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
-.container-image-abt {
+.container-image {
   flex: 1 1 45rem;
 }
 .container-text {
@@ -181,7 +181,7 @@ body {
   padding: 0 1rem;
   margin-top: 1rem;
 }
-.about-image {
+.about-img {
   width: 100%;
 }
 /* Product section */
@@ -507,5 +507,11 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+    width: auto;
   }
 }
