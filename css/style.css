@@ -427,6 +427,9 @@ footer .credit a {
   html {
     font-size: 75%;
   }
+  .about .row {
+    flex-wrap: wrap;
+  }
 }
 
 /* Tablet */
