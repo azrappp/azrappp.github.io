@@ -20,8 +20,9 @@ body {
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 1.4rem 7%;
   background-color: rgba(1, 1, 1, 0.8);
   border-bottom: 1px solid #f6c23d;
@@ -41,6 +42,10 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
+  font-style: italic;
+}
+.navbar .navbar-logo span {
+  color: #f6c23d;
 }
 .navbar .navbar-nav a:hover {
   color: var(--color1);
@@ -100,6 +105,9 @@ body {
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
   line-height: 1.2;
+}
+.hero .content h1 span {
+  color: #f6c23d;
 }
 .hero .content p {
   font-size: 1.6rem;
